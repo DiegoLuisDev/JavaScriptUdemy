@@ -8,4 +8,4 @@ let dataNascimento = 2023 - idade;
 
 console.log(`${nome} ${sobreNome} tem ${idade} anos, pesa ${peso} kg, tem ${alturaEmMt} de altura, e seu IMC é de ${IMC}, seu ano de nascimento é ${dataNascimento}`);
 
-// Usamos template string
+// Usamos template string 

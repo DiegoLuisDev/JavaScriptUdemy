@@ -1,4 +1,4 @@
-// let umaString = ´´Um \´´texto\`` ``; (quando colocamos as barras invertidas podemos colocar aspas duplas tanto no frase quanto no fechamento)
+ // let umaString = ´´Um \´´texto\`` ``; (quando colocamos as barras invertidas podemos colocar aspas duplas tanto no frase quanto no fechamento)
             //   01234567
 let umaString = `Um texto`;
 console.log(umaString[3]); 
@@ -16,7 +16,7 @@ console.log(`${umaString} em um lindo dia.`);
 // usamos códigos diferentes para escrever a mesma coisa
 
 console.log(umaString.indexOf(`m`, 0))
-// indexof irá procurar em qual indice que a letra `t` começa, com isso podemos achar em qual indice está a primeira palavra que queremos, nesse caso o `t`
+// indexof irá procurar em qual indice que a letra `m` começa, com isso podemos achar em qual indice está a primeira palavra que queremos, nesse caso o `t`
 // se colocarmos virgula e um número, esse número irá especificar em qual indice ela vai iniciar a procura
 
 console.log(umaString.lastIndexOf(`m`, 3))

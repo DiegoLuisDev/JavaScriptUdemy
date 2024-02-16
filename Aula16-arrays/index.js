@@ -9,7 +9,7 @@ console.log(alunos.length);
 alunos[alunos.length] = `Fabio`;
 // uma forma para adicionarmos um dado no final do array
 alunos.push(`Luiza`);
-// .push é moutra forma para adicionarmos um dado no final do array
+// .push é mostra forma para adicionarmos um dado no final do array
 alunos.unshift(`Guilherme`);
 // .unshift para adicionarmos dados no inicio do array
 let removido = alunos.pop();
@@ -21,9 +21,10 @@ delete alunos[1];
 console.log(removido);
 console.log(removido1);
 console.log(alunos);
-console.log(alunos.slice(0, 2));
+console.log(alunos.slice(0, 4));
 // .slice irá mostrar os indices de 0 até 1, .slice(0, -1) irá mostrar todos menos o último
 console.log(typeof alunos);
 // mostrar o tipo de dado
 console.log(alunos instanceof Array);
 // mostra se realmente é um array 
+

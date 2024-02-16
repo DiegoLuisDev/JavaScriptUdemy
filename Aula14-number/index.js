@@ -9,13 +9,13 @@ console.log(typeof num1);
 // estamos mudando o tipo da varialvel num1 de number para string
 
 console.log(num1.toString(2));
-// com o (2) iremos mostrando o valor de num1 em binario
+// com o (2) iremos mostrar o valor de num1 em binario
 
 console.log(num1.toFixed(3));
 // .toFixed irá mostrar quantas casas decimas queremos, nesse caso 3 (isso em quando queremos arredondar algum números muito grande)
 
 console.log(Number.isInteger(num1));
-// Number.isInteger(num1) irá verificar se o valor da variavel é inteiro ou não (ele irá retornar verdadeiro ou false)
+// Number.isInteger(num1) irá verificar se o valor da variavel é inteiro ou não (ele irá retornar tru or false)
 
 let temp = num1 * `5`;
 console.log(Number.isNaN(temp));

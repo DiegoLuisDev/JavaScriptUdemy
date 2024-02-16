@@ -1,8 +1,9 @@
+// O valor de um Const será sempre o mesmo
 // Não podemos criar constantes com palavras reservadas
 // Constantes precisam ter nomes significativos
 // Não podem começar com números
 // Não podem conter espaços ou traços
-// Utilizamos camelCase
+// Utilizamos camelCase (Estilo de escrita onde a primeira palavra começa com minusculo e as subsequentes em maiusculos)
 // Case-sensitive(Palavras em maiusculos e minusculos tem diferença)
 // Não podemos modificar o valor de uma constante
 // Não utilize var, utilize const
@@ -15,7 +16,8 @@ const segundoNumero = `10`;
 const resultado = primeiroNumero * segundoNumero;
 const resultadoDuplicado = resultado * 2;
 let resultadoTriplicado = resultado *3;
-resultadoTriplicado = resultadoTriplicado +  5;
+
+resultadoTriplicado = resultadoTriplicado + 5;
 
 console.log(resultadoTriplicado)
 
