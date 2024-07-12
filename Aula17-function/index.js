@@ -6,12 +6,12 @@ console.log(variavel);
 
 function soma(x, y) {
     // soma(x = 1, y =1) { caso não envie os parametros, ou receba apenas 1 valor
-    const resultado = x + y;
-    return resultado
+    // const resultado 
+    return x + y;
 };
 const resultado = soma(2, 2);
 // depois do return a função será encerrada, logo tudo que estiver abaixo será ignorado
-// console.log(resultado);
+console.log(resultado);
 
 const raiz = function(n) {
     return Math.sqrt(n);

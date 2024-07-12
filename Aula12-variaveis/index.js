@@ -7,6 +7,7 @@ varA = varB;
 varB = varC;
 varC = temp;
 
-[varA, varB, varC] = [varB, varC, varA]
-
-console.log([varB, varC, varA]);
+temp = varC; //a
+varC = varB;
+varB = varA;
+varA = temp;

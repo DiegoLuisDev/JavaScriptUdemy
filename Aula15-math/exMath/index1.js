@@ -4,7 +4,8 @@ const texto = window.document.getElementById(`text`);
 numeroTitulo.innerHTML = numero;
 
 texto.innerHTML = ``;
-texto.innerHTML =  `<p>Raiz quadrada    : ${Math.sqrt(numero)}.</p>`;
+let resultado = numero >= 0 ? Math.sqrt(numero).toFixed(2) : "Número inválido";
+texto.innerHTML = `<p>Raiz quadrada: ${resultado}</p>`;
 
 texto.innerHTML +=  `<p>${numero} é inteiro? ${Number.isInteger(numero)}`;
 
